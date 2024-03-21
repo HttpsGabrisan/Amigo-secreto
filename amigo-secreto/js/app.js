@@ -8,7 +8,7 @@ function adicionar(){
         alert('O nome já foi adicionado.');
         return;
     }else if (nome.value == ''){
-        alert('Digite um nome para continuar');
+        alert('Digite um nome para continuar.');
         return;
     }
 
@@ -27,7 +27,7 @@ function adicionar(){
 
 function sortear() {
     if(amigos.length <=3){
-        alert('Poucos nomes descritos');
+        alert('Digite o nome de pelo menos 4 amigos.');
         return;
     }
     embaralha(amigos);
