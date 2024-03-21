@@ -7,8 +7,9 @@ function adicionar(){
     if (amigos.includes(nome.value)){
         alert('O nome já foi adicionado.');
         return;
-    }else if (nome == ''){
+    }else if (nome.value == ''){
         alert('Digite um nome para continuar');
+        return;
     }
 
     amigos.push(nome.value);
