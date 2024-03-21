@@ -26,6 +26,10 @@ function adicionar(){
 
 
 function sortear() {
+    if(amigos.length <=3){
+        alert('Poucos nomes descritos');
+        return;
+    }
     embaralha(amigos);
     let sorteio = document.getElementById('lista-sorteio');
     for (i = 0; i < amigos.length; i++){
